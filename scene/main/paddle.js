@@ -19,9 +19,6 @@ class Paddle extends NikuImage {
         }
     }
 
-    fire() {
-    }
-
     moveLeft() {
         this.move(this.x -= this.speed)
     }
