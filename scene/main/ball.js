@@ -36,5 +36,11 @@ class Ball extends NikuImage {
     rebound() {
         this.speed_y *= -1
     }
+
+    hasPoint(x, y) {
+        var xIn = x >= this.x && x <= this.x + this.w
+        var yIn = y >= this.y && y <= this.y + this.h
+        return xIn && yIn
+    }
 }
 
