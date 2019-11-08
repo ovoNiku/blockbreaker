@@ -26,6 +26,7 @@ var __main = function () {
     var images = {
         ball: 'images/ball.png',
         paddle: 'images/paddle.png',
+        block: 'images/block.png',
         bg: 'images/bg.png',
         title: 'images/title.png',
         title1: 'images/title1.png',
